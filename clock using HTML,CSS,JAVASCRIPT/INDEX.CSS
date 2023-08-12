@@ -1,0 +1,44 @@
+#clockContainer{
+    position: relative;
+    margin: auto;
+    border: 2px solid red;
+    height: 40vw;
+    width: 40vw;
+    background: url(pngwing.com.png) no-repeat;
+    background-size: 100%;
+}
+
+
+#hour , #minute , #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px;
+    transform-origin: bottom;
+}
+#hour{
+    height: 17%;
+    width: 1%;
+    top: 33%;
+    left: 49.5%;
+    opacity: 0.8;
+    
+
+
+}
+#minute{
+    height: 33%;
+    width: 1%;
+    top: 17%;
+    left: 49.5%;
+    opacity: 0.8;
+    
+}
+
+#second{
+    height: 36%;
+    width: 1%;
+    top: 14%;
+    left: 49.5%;
+    opacity: 0.8;
+}
+    
